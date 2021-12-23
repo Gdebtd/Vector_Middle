@@ -20,4 +20,6 @@ long itc_sum_odd_part_lst(const vector <int> & lst);
 void itc_odd_even_separator_lst(const vector <int> & lst, vector <int> & lst1, vector <int> & lst2);
 void itc_pos_neg_separator_lst(const vector <int> & lst, vector <int> & lst1, vector <int> & lst2, vector <int> & lst3);
 
+void itc_odd_even_analysis_lst(const vector <int> & lst);
+
 #endif
