@@ -14,3 +14,25 @@ bool is_even(int num)
         return true;
     return false;
 }
+
+int cnt_even(const vector <int> & lst)
+{
+    int cnt = 0;
+    for (int i = 0; i < lst.size(); i++)
+    {
+        if (is_even(lst[i]))
+            cnt++;
+    }
+    return cnt;
+}
+
+int cnt_odd(const vector <int> & lst)
+{
+    int cnt = 0;
+    for (int i = 0; i < lst.size(); i++)
+    {
+        if (!is_even(lst[i]))
+            cnt++;
+    }
+    return cnt;
+}
