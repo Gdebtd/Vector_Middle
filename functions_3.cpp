@@ -11,11 +11,11 @@ void itc_odd_even_analysis_lst(const vector <int> & lst)
     int odd_min = min_odd(lst);
     int even_sum = itc_sum_even_part_lst(lst);
     int odd_sum = itc_sum_odd_part_lst(lst);
-    cout << "Àíàëèç ñïèñêà:\n";
-    cout << "Êîëè÷åñòâî ÷åòíûõ ÷èñåë: " << even_cnt << "        Êîëè÷åñòâî íå÷åòíûõ ÷èñåë: " << odd_cnt << "\n";
-    cout << "Ìàêñèìàëüíàÿ ÷åòíàÿ öèôðà: " << even_max << "        Ìàêñèìàëüíàÿ íå÷åòíàÿ öèôðà: " << odd_max << "\n";
-    cout << "Ìèíèìàëüíàÿ ÷åòíàÿ öèôðà: " << even_min << "        Ìèíèìàëüíàÿ íå÷åòíàÿ öèôðà: " << odd_min << "\n";
-    cout << "ñóììà ÷åòíûõ ÷èñåë: " << even_sum << "        Ñóììà íå÷åòíûõ ÷èñåë: " << odd_sum << "\n";
+    cout << "Анализ списка:\n";
+    cout << "Количество четных чисел: " << even_cnt << "        Количество нечетных чисел: " << odd_cnt << "\n";
+    cout << "Максимальная четная цифра: " << even_max << "        Максимальная нечетная цифра: " << odd_max << "\n";
+    cout << "Минимальная четная цифра: " << even_min << "        Минимальная нечетная цифра: " << odd_min << "\n";
+    cout << "сумма четных чисел: " << even_sum << "        Сумма нечетных чисел: " << odd_sum << "\n";
 }
 
 void itc_pos_neg_analysis_lst(const vector <int> & lst)
