@@ -1,6 +1,6 @@
 #include "middle_list.h"
 
-vector <char> itc_strlist(string str)
+vector <char> itc_strtlist(string str)
 {
     int _size = len(str);
     vector <char> res(_size);
