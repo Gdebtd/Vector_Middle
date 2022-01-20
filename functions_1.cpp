@@ -36,24 +36,16 @@ string itc_rmstrspc(string str)
 string itc_rmstrchar(string str, string _less)
 {
     string res = "";
-    string _a = "";
-    int j = 0;
     for (int i = 0; i < len(str); i++)
     {
-        if (j < len(_less) && str[i] == _less[j])
+        bool del = false;
+        for (int j = 0; j < len(_less); j++)
         {
-            j++;
-            _a += str[i];
+            if (str[i] == _less[j])
+                del = true;
         }
-        else
-        {
-            if (j == len(_less))
-                _a = "";
+        if (!del)
             res += str[i];
-            j = 0;
-            res += _a;
-            _a = "";
-        }
     }
     return res;
 }
