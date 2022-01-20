@@ -29,7 +29,7 @@ int max_neg(const vector <int> & lst);
 int min_neg(const vector <int> & lst);
 
 // main functions
-vector <char> itc_strlist(string str);
+vector <char> itc_strtlist(string str);
 string itc_join(vector <char> lst, string sep);
 string itc_rmstrspc(string str);
 string itc_rmstrchar(string str, string _less);
